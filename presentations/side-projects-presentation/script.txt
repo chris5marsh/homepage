@@ -1,0 +1,228 @@
+1. Bringing your side projects to life
+[image - Frankenstein]
+
+How many people here have seen a new website, a new app, a new online tool and thought "I could have done that?"
+
+Well this is a call to arms, a kick up the backside - for me as well as you - to say that you can do that.
+
+
+2. The bit about me
+[image - Epiphany office]
+
+My name is Chris Marsh, I'm a front-end developer at Epiphany in Leeds. I'm part of a team of about 25 designers, copywriters, front end devs and back end devs that build stuff online, from full on web builds -
+
+2a. West Herts / Slater & Gordon / CBI
+
+- to bits of interactive content for our clients -
+
+2b. Sounds of Street View / iPhone timeline / Pin the UK
+
+I've been doing this for a while, and even after working in front of a screen all day I really enjoy messing around with stuff when I get home from work. So now I'd like to show you the result of all the hours I've spent building my own servers, learning Node, reading the Facebook API, checking out Websockets and much more...
+
+
+3. My side project credentials
+[image - desert]
+
+Nothing. Well, next to nothing. I have a couple of Github repos for some projects I'm not too embarassed of.
+
+
+4. Potential credentials
+[image - rubbish gathering dust]
+
+What I do have is a load of directories sitting on my computer, gathering virtual dust. A load of half-finished, half ready, half arsed projects that have never seen the light of day.
+
+I'm guessing that most people here have hobby sites, or pet projects, or ideas for sites or apps. Some of you might even have released them. Some of you might even be making money from them, or running them as businesses! Good for you. You've done it. I'd love to hear how you did it.
+
+But if you're like me, then most of your ideas don't get released.
+
+But I've had a think, read up a little bit, and I have a few tips to get those projects out there.
+
+
+5. Bin 'em
+
+Okay, back up a bit. Don't go throwing them all away... You might be getting rid of your pension fund.
+
+Seriously, though, if after the first flush of enthusiasm you don't reckon the idea's a keeper then bin it, archive it, put it away.
+
+But every idea seems brilliant.. no, IS brilliant, when you first think of it. Especially if you think of it in the pub.
+
+
+6. Pick Your Fights
+[image - Fight Club]
+
+But pick your fights. Do your research. If it's that fantastic an idea, someone may very well have had it before. And built in. And marketed it. If it already exists, and your idea doesn't add anything to it, chuck it out. First to the market more often than not means market share.
+
+Also, pick something you would use yourself. If you think the world needs an app that allows you to track how often and against what your dog lifts his leg on your daily walk, then make sure you'd use it for your dog. Then, check again. Ask your friends with dogs. Ask other dog walkers. But beware - the proportion of people who agree with something does not equal the proportion who would download and use your app.
+
+So before you go charging in, do some research. If this thing takes off, what will it cost?
+
+OK, so you've got your idea, and it's pretty good. You think it'll fly. What next?
+
+7. Slimming your idea down
+[image - Weightwatchers before and after]
+
+Do what no-one ever tells you. Be lazy. You haven't got infinite time and money to spend on this thing, so trim it down. Make it lightweight. You might have a hundred good ideas for expanding, adding features, but just because it has lots of extras...
+
+7a. Simpsons car
+
+...doesn't make it better. You'll slow yourself down and get stuck on features that don't add value. Best to work on something you know you can finish quickly and get it out the door. And the best way to do that is momentum.
+
+8. Use your momentum
+
+When you first have an idea, you'll think of ways to do it. YOur thoughts will seem clearer. Once you start writing code or getting in to the guts of the project, you'll get waylaid and forget things.
+
+I don't know if any of you have seen this movie about a runaway train, but if not I apologise for the spoiler - but it does actually stop in the end. You need to use your momentum on a project to get it out the door.
+
+I always find that I get distracted with all sorts of extra ideas, or features, or by having a job and a family. Well, I need to get organised.
+
+9. Get Organised
+
+Get a bit OCD. Use a tool like Trello, an online to do list and pinboard, to write down what needs doing, what ideas you can save for later, and what needs to be done right now.
+
+A brilliant tool for doing this is Trello.
+
+9a. Trello
+
+How many people here have used it? It's free, it's easy to used, you can share it round with people. It's essentially a pinboard that you can add lists of things to do.
+
+Add your ideas there, and maybe you'll find time for them in version 2, or 3, or 4.
+
+And those core things that you can't live without? List them on Trello and work your way through. Set due dates on them and stick to the promises you make yourself.
+
+And do you know what helps you stick to those promises? Having a buddy.
+
+
+10. Be accountable
+
+Here represented by one the greatest screen duos of all time, having a buddy, or an accountability partner, means that when you can't be bothered to finish off your project, there's someone there to nag you.
+
+It could be someone at work, your other half, your best friend... but tell them what you're doing, when you're going to release it, and let them pester you until you do it. And be excellent to each other.
+
+Now that idea goes further. We all know Bill is a great web developer and Ted is the designer. And when they collaborate the result is excellent!
+
+So you need to find someone who complements you.
+
+
+11. Collaborate
+
+These two got a lot done together. Granted, they were shot to pieces at the end, but still...
+
+I know that I am not a designer. I have a lot to thank Twitter Bootstrap for. But I know loads of graphic designers. Lots of people whose skills complement mine.
+
+Find those people and share your idea. If you can find someone who shares your goals and ambitions for a project, you'll have twice as much enthusiasm, twice as much talent, and twice as much time to get your project out the door.
+
+So where can you meet these people?
+
+11a. DotYork
+
+Well, you've all made one of the first steps, which is to come to things like this. DotYork is a brillint place to get to know people who can help you. We've got designers, devlopers, project managers, sysops, marketers, all sorts. There's more experience in this room than you'll ever be able to gain on your own. Use it.
+
+
+11b. meeet.co
+
+And online too. Twitter is a great tool for getting in touch with people in the industry. Also a good place for testing your project.
+
+And there's a new website, which has taken the missing vowels from Flickr and Tumblr and added them to the middle of meet. It's a tool that allows you to post, and reply to, ongoing projects to lend a hand. If you can't find anyone that lives locally, why not find someone somewhere who has a computer?
+
+And if you get three-quarters of the way through a project and find it's stalling, do you know what the best thing to do is? No, not bin it. Release it.
+
+
+12. Just release it!
+
+The barrier for releasing a new website or app or project is so low that there's no excuse. Github is almost the de facto place for open source web projects to be relased, and allows for even more collaboration.
+
+Digital Ocean allows you to run a Linux box for $5 a month (and I'm sure our sponsor Bytemark have some very good offers too...) so buy a domain, throw up a web page, and get it out there. There's nothing that encourages you to finish something off than having other people look at it.
+
+So what could possibly go wrong?
+
+
+13. Disadvantages
+
+* Someone might say it's rubbish
+* Someone might steal the idea and do it better
+* It's not finished yet
+
+There are a hundred reasons you can make up not to release your project. But almost all of them boil down to one thing: fear. I am terrified that people will look at my ideas and laugh. Tell me they're stupid, or badly designed, or poorly implemented.
+
+So what? If they're no good, you can do another one. And you need to believe that the things you build are worth something. Not everything you build is going to have universal appeal, or be useful to thousands of people, or even be sold to Facebook for a billion dollars. Although that would be nice.
+
+But think of the benefits.
+
+
+14. Advantages
+
+If you work for someone else, you'll gain additional skills you can bring to your job.
+
+If you work for yourself, you'll gain additional skills you can sell to clients.
+
+If it's successful, it can bring you an income, through advertising, or, if it's going really well, paid subscriptions. Or maybe someone will like it so much they'll want to buy it.
+
+If all else fails, you release it with a bang but it fizzles out after a month, you'll have that experience. It'll get easier to release the next project, and the next project, and the next.
+
+I have spent the last ten years in web development and, apart from my admittedly rather old website, I have released dozens of websites for clients. But my own work still sits in a directory somewhere. But that stops today!
+
+I want to show you guys some of the things I've built. Hopefully it'll give you an indication how small an idea or a project can be before you release it.
+
+So a word of caution. A couple of these are old ideas that I have put online as a result of preparing this talk. I want to follow my own advice. They might not even work properly. But here goes.
+
+
+15. Case Studies
+
+15a. social-count.com
+
+Okay, a fairly easy one first. We needed a tool at work that would get the number of Tweets, Likes and so on. I put this together in a couple of evenings and exposed an API for some of our internal tools to query.
+
+You can see what I mean about my design skills, right?
+
+So you put in a URL and it returns the counts. count.php returns a JSON object. I think the Facebook API has changed since I built it.
+
+I learnt a lot about PHP's curl functionality, and how the different socail networks' APIs work.
+
+So that's one.
+
+
+15b. CSS Object
+
+Another tool we use internally. It reads a CSS file and returns a JSON object with the selectors and their properties. We use it top compare stylsheets to see where they're different.
+
+I'm still working on media queries, as you can see.
+
+A fairly simple tool, but it's incredibly complex to parse a CSS file. I learnty a lot about using AMD modules with this one.
+
+
+15c. SMA
+
+OK, so how many people have heard of Snog, Marry, Avoid? It's a game where you pick three random people, and you have to say which one of them you'd snog, which one you'd marry, and which one you'd avoid. It's the kind of drinking game you'd play when you're young. Some of you are still young.
+
+Anyway, this takes that game and uses your Facebook friends. So you select which of the three Facebook friends you'd snog, marry or avoid. This was fun to work on, uses a lot of Ajax to make requests to Facebook, and uses Twitter Bootstrap because my design skills are zero.
+
+The thing I wanted to achieve with this was to let you play the game until you reached a certain level, and then you'd be able to see stats about you: who you snog, marry and avoid the most, and, more interestingly, how often you are snogged, married and avoided! I think these stats are broken at the moment.
+
+I'm pretty embarassed about this. But I should be prouder. It took a while to get it working. It has some cool features. I shared it with a couple of people and then stepped back from it. But perhapd it deserves a revisit.
+
+
+15d. Scoredraw
+
+My next project is an experiment with NodeJS. I want to learn it so I've taken an idea for a Fantasy Football game and written it up in Node. I have a designer pal, who's also a football fan, on board and he's going to design it up.
+
+I don't have anything to show you for this, but I want to announce it now so people can chase me up about it in the future.
+
+
+15e. Perch
+
+And finally I want to showcase someone else's side project that worked, became successful and is now a fully-fledged business. Has anyone used Perch?
+
+Perch is a CMS written in PHP that I've used on a couple of projects. You pay £50 for a site license and it's really, really good.
+
+But it started life as a side project for a web dev agency who needed a CMS for their own clients. They wrote it in a few weekends, and sarted selling it not long after. The first version was pretty basic, but it does everything that's needed.
+
+Rachel Andrew, one of the devs behind Perch, has written a book about Perch called "The Profitable Side Project", that I've taken a lot of inspiration from. Taking the step from messing around with code at home to releasing a project in to the wild is pretty hard. It can be quite daunting.
+
+But there is space on the internet for all our ideas. There are people out there who need what you can build. And there might even be people out there that will pay you for it.
+
+
+
+16. Resources
+
+I've drawn on quite a lot of sources for this, and all of them talk about getting your product out there. But here's some I found useful.
+

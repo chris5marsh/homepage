@@ -1,0 +1,85 @@
+Code Snippets
+
+
+Font variables
+
+// Fonts
+$font-base:Arial, Tahoma, Helvetica, sans-serif;
+$font-sans: "Gill Sans MT", "CartoGothicStdBook", Arial, Tahoma, Helvetica, sans-serif;
+$font-sans-condensed: "Gill Sans MT Condensed Bold", "CartoGothicStdBook", Arial, Tahoma, Helvetica, sans-serif;
+$font-sans-condensed-alt: "GillSansW04-BoldCondens", "CartoGothicStdBold", Arial, Tahoma, Helvetica, sans-serif;
+$font-sans-bold:"Gill Sans MT Bold", "CartoGothicStdBook", Arial, Tahoma, Helvetica, sans-serif;
+$font-sans-book: "Gill Sans W04 Book", Arial, sans-serif;
+$font-title:"Trajan Pro 1167363", Arial, sans-serif;
+
+
+Sass Maps
+
+$breakpoints: (
+	mobile:320px,
+	tablet:768px,
+	desktop:1280px
+);
+
+Color variables
+
+// Colors
+$palettes: (
+  purple: (
+    dark: #2F1B42, // (7) dark purple
+    base: #47276A, // (46) purple
+    // Should combine these 2 at some point
+    light: #490E67, // (11) lighter purple
+    light2: #4A0D66 // (13) lighter purple
+  ),
+  brown: (
+    base: rgba(30, 18, 5, 0.5) // (12) dark brown
+  ),
+  blue: (
+    base: #57B6B1, // (10) blue
+    light: #97D2CF // (10) light blue
+  ),
+  gray: (
+    x-dark: #000, // (34)
+    dark: #2F2F2F, // (4)
+    mid-dark: #353535, // (8)
+    base: #666, // (9)
+    mid-light: #CCC, // (30)
+    light: #EAEAEA, // (17)
+    x-light: #FFF // (103)
+  )
+);
+
+
+Equator stylesheet
+
+/*
+
+File:           eqtr_style.css
+Main Authors:   Sean Jones & Bryan Kerr @ Equator
+
+INDEX
+------------------
+0. Reset
+1. Basic Semantics
+2. Template
+3. Forms
+4. Dynamic Controls
+5. Components
+CSS3 Enhancements
+Web Fonts
+Media Queries
+Print Styles
+
+*/
+
+
+
+AND
+
+!!!!!
+
+
+/* // Toggle Bar Overrites (For anything more than a heading on the toggleBar) */
+
+/* TO DO */

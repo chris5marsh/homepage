@@ -1,0 +1,79 @@
+Grunt - Ugly But Beautiful
+
+
+1.
+What is Grunt and how can it help us?
+Grunt is a Task Runner, written in Javascript.
+It runs repetitive or automated tasks automatically
+Lots of ways to use it
+Lots more ways being built - JS is very easy-to-use
+
+2.
+Why do we use it, and why do you care?
+Three reasons
+  1) Helps us set up projects properly
+
+3. Bitbucket
+Version control is vital to keep our code safe and easy to work on.
+Stores complete projects and saves updates
+Last count 123 repos since June 2013 - that's a new one every two days!
+
+3.
+The second reason:
+  2) Streamlines our development process
+
+4. Autoprefixer
+Two quick examples
+When browsers have a new CSS feature and they're not 100% sure it'll be implemented everywhere, they browser prefix it.
+e.g. CSS transitions, to do fancy hover states, you have to write -webkit, -moz at the front. Really difficult to remember, but Grunt automatically adds them
+
+5. Live Reload
+Grunt has a "watch" task that checks your code and, if there is a change, refreshes the page with the new styles.
+Makes our development process quicker and makes debugging easier and gives us more time to do the clever, cool stuff.
+
+5.
+The third (and, for you, most important) reason
+  3) Delivering perfect projects
+
+6.
+A few examples here.
+Minification (CSS, JS and images)
+
+7.
+Stratus deployment
+Adding/omitting code (Bugherd for stratus, Analytics and Linkstant for live)
+
+8.
+Live deployment
+We deliver the best code we can to the client
+Minification also obscures code - less interference!
+
+9.
+Why am I telling you this?
+Give you confidence in our process
+
+10.
+Originally my second point was to avoid unnecessary questions, but actually they are vital question to our clients. Do we have Analytics - Is the code optimised - Are we confident in our code?
+
+11.
+Showing off a bit - we've worked hard to get this working and want to let you know that we are evolving as a team.
+
+10.
+Other stuff we're doing
+If I see your eyes glazing over I won't mind.
+Sass & Require - you can ignore them, but for those of you that are interested Sass is a CSS preprocessor, which allows us to write cleaner and better CSS, and Require makes our Javascript faster and less buggy
+Node - server-side Javascript. Grunt and lots of other processes run using Node. We all have it installed on our computers and it has lots of helpful development tools.
+Feedback session - we're planning on getting a representative from CS, SEO and EM together a couple of times a month to discuss a recently-gone-live project and get feedback. Hopefully this will inform future development.
+
+11.
+It's an evolving project and we're open to suggestions
+Rolled out across most of the team, still getting to grips with how best to use it.
+Implementing other offline ways to make our communication and delivery better.
+Are there any things that we always forget?
+Any processes you think could be added in?
+
+12.
+Don't expect you to be running Grunt tasks next week, but...
+If clients ask what systems we have in place, you can say we have version contol (code security), a task runner and a build process (for quality control)
+If you're woried about whether a certain process has happened, Grunt covers that - if you would rather we talked to tech contacts, we can!
+Grunt remembers stuff so we don't have to.
