@@ -4,9 +4,9 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Chris Marsh, digital manager at the University of York</title>
-  <meta name="description" content="University of York Design Patterns">
-  <meta name="author" content="University of York">
+  <title>Chris Marsh, Front-end Developer at Cloud Gateway</title>
+  <meta name="description" content="Chris Marsh, Front-end Developer at Cloud Gateway">
+  <meta name="author" content="Chris Marsh">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
@@ -26,8 +26,11 @@
       overflow:hidden;
     }
     p {
-      margin:24px 0;
+      margin:0 0 24px;
       letter-spacing:0.002em;
+    }
+    p:last-child {
+      margin-bottom:0;
     }
     abbr {
       font-weight:bold;
@@ -50,7 +53,7 @@
     h1 {
       font-weight:200;
       font-size:72px;
-      font-size:20vw;
+      font-size:calc(10vw + 16px);
       text-align:center;
       margin:0 0 0.3em;
     }
@@ -93,8 +96,11 @@
       padding-top:64px;
     }
     .employment {
+      margin:0 auto 24px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
       max-width:840px;
-      margin:0 auto;
     }
     .employment a,
     .employment a:visited {
@@ -108,19 +114,13 @@
     .employment-current img {
       max-width:480px;
       width:80%;
+      margin-bottom:24px;
     }
     .employment-past {
       overflow:hidden;
     }
     .employment-past img {
       max-width:240px;
-      width:25%;
-      float:left;
-    }
-    .employment-past .employment-content {
-      width:70%;
-      float:right;
-      padding:0 0 0 5%;
     }
     .employment-content {
       text-align:left;
@@ -166,20 +166,34 @@
      ****************************/
     footer {
       overflow:hidden;
-      padding:0 24px;
+      padding:24px;
     }
     footer a {
       color:#fffbe6;
     }
-    .copyright {
-      float:left;
-    }
-    .colophon {
-      float:right;
-    }
     .colophon a {
       text-decoration:none;
       border-bottom:1px solid #fffbe6;
+    }
+    /****************************
+     * Big screens
+     ****************************/
+    @media (min-width: 720px) {
+      .employment-past {
+        flex-direction:row;
+      }
+      .employment-past .employment-content {
+        padding:0 0 0 5%;
+      }
+      .employment-past img {
+        align-self:flex-start;
+      }
+      .copyright {
+        float:left;
+      }
+      .colophon {
+        float:right;
+      }
     }
   </style>
 
@@ -206,15 +220,23 @@
 
   <section id="intro">
     <h1>chrismar.sh</h1>
-    <p>I am a <strong>front-end web developer</strong>, using <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and <abbr title="JavaScript">JS</abbr> to make web sites for the <strong>University of York</strong>.</p>
-    <p>My development process uses <strong>Sass</strong>, <strong>NodeJS</strong> and <strong>Grunt</strong> to deliver top-notch web stuff.</p>
+    <p>I am a <strong>front-end web developer</strong>, using <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and <abbr title="JavaScript">JS</abbr> to make web sites for <strong>Cloud Gateway</strong>.</p>
+    <p>My development process uses <strong>Sass</strong>, <strong>NodeJS</strong> and <strong>Angular</strong> to deliver top-notch web stuff.</p>
   </section>
 
   <section id="work">
     <div class="employment employment-current">
+      <img src="cgw.png" alt="Cloud Gateway logo">
+      <div class="employment-content">
+        <p>After four years at the University of York I decided it was time for a new challenge. Enter <strong>Cloud Gateway</strong>.</p>
+        <p>It's a small start-up based in Leeds, delovering secure cloud hosting for some top clients.</p>
+        <p>I've been brought on board to take charge of all front-end stuff, mostly our customer portal, which has meant diving into Angular, and I'm loving it!</p>
+      </div>
+    </div>
+    <div class="employment employment-past">
       <img src="york.png" alt="University of York logo">
       <div class="employment-content">
-        <p>I've been working at the <a href="http://www.york.ac.uk">University of York</a> since January 2015.</p>
+        <p>I worked at the <a href="http://www.york.ac.uk">University of York</a> from January 2015 to May 2019.</p>
         <p>The higher education sector hasn't always been the most up-to-date when it comes to their websites, but York is implementing a brand-new digital strategy which I'm proud to be part of.</p>
         <p>I'm building a responsive framework to develop a new and improved digital experience for students, alumni and staff.</p>
       </div>
@@ -248,29 +270,29 @@
 
   <section id="social">
     <p>I can be found in a few places online. Here is a small selection.</p>
-    <a href="http://facebook.com/chris5marsh" class="site">
+    <a href="https://facebook.com/chris5marsh" class="site">
       <img src="facebook.png" alt="Facebook logo">
       <div class="site-content">
         <p>I tend to use <strong>Facebook</strong> for personal stuff. So it'll mostly be me checking in to family-friendly restaurants, telling you how far I've just run, or posting pictures of my kids.</p>
       </div>
     </a>
-    <a href="http://twitter.com/chris5marsh" class="site">
+    <a href="https://twitter.com/chris5marsh" class="site">
       <img src="twitter.png" alt="Twitter logo">
       <div class="site-content">
-        <p><strong>Twitter</strong> is more work-related. I often tweet about stuff I'm working on, or cool stuff I've seen online. Occasionally I'll retweet something too. I'm pretty dangerous like that...</p>
+        <p><strong>Twitter</strong> is more work-related. I often tweet about stuff I'm working on, or cool stuff I've seen online. Occasionally I'll retweet something too.</p>
       </div>
     </a>
-    <a href="http://github.com/chris5marsh" class="site">
+    <a href="https://github.com/chris5marsh" class="site">
       <img src="github.png" alt="Github logo">
       <div class="site-content">
-        <p>I'm a fairly new convert to <strong>Github</strong> (I used Bitbucket for a while before moving over), but we're using it for all the University of York code and I'm getting better and better at command-line stuff.</p>
+        <p>I've got a few mini-projects on <strong>Bitbucket</strong> as well as <strong>Github</strong>, including this web page here! I can't decide which one is better.</p>
       </div>
     </a>
   </section>
 
   <footer>
-    <p class="copyright">&copy; Chris Marsh 2018</p>
-    <p class="colophon">Feedback? Questions? Comments? <a href="http://twitter.com/chris5marsh">Find me on Twitter</a>.</p>
+    <p class="copyright">Made from scratch by me.</p>
+    <p class="colophon">Feedback? Questions? Comments? <a href="https://twitter.com/chris5marsh">Find me on Twitter</a>.</p>
   </footer>
 
 </body>
