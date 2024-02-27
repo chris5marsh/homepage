@@ -1,311 +1,466 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Chris Marsh, Software Engineer</title>
+    <meta name="description" content="Chris Marsh, Software Engineer" />
+    <meta name="author" content="Chris Marsh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Chris Marsh, Software Engineer</title>
-  <meta name="description" content="Chris Marsh, Software Engineer">
-  <meta name="author" content="Chris Marsh">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        /* CSS VARS */
+        --highlight: #1368c2;
+        --light: #fffbe6;
+        --light--secondary: #fdf0e4;
+        --dark: #343232;
+        /* END CSS VARS */
 
-  <style>
-    body {
-      overflow:auto;
-      background:#1368c2;
-      color:#fffbe6;
-      font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-      font-weight:200;
-      font-size:24px;
-      line-height:1.5;
-      margin:0;
-      padding:0;
-    }
-    section {
-      padding:48px 24px;
-      overflow:hidden;
-    }
-    p {
-      margin:0 0 24px;
-      letter-spacing:0.002em;
-    }
-    p:last-child {
-      margin-bottom:0;
-    }
-    abbr {
-      font-weight:bold;
-    }
-    a img {
-      border:0;
-    }
-    /****************************
+        overflow: auto;
+        background: var(--highlight);
+        color: var(--light);
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+          Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        font-weight: 200;
+        font-size: 24px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+      }
+      section {
+        padding: 48px 24px;
+        overflow: hidden;
+      }
+      p {
+        margin: 0 0 24px;
+        letter-spacing: 0.002em;
+      }
+      p:last-child {
+        margin-bottom: 0;
+      }
+      abbr {
+        font-weight: bold;
+      }
+      a img {
+        border: 0;
+      }
+      /****************************
      * INTRODUCTION
      ****************************/
-    #intro {
-      background:#fffbe6;
-      color:#343232;
-      text-align:center;
-      padding-bottom:72px;
-    }
-    #intro p {
-      margin:0 0 12px;
-    }
-    #intro a {
-      color: #1368c2;
-    }
-    h1 {
-      font-weight:200;
-      font-size:72px;
-      font-size:calc(10vw + 16px);
-      text-align:center;
-      margin:0 0 0.3em;
-    }
-    h1:after,
-    .employment-current:after,
-    #social:after {
-      display: block;
-      content: "♦";
-      width:80%;
-      max-width: 240px;
-      height: 0;
-      line-height:1px;
-      background: transparent;
-      font-size: 18px;
-      text-align:center;
-      clear:both;
-    }
-    h1:after {
-      margin: 24px auto;
-      text-shadow: 3px 0px 0 #fffbe6, -3px 0 0 #fffbe6;
-      border-bottom: 1px solid #343232;
-      color:#343232;
-    }
-    #social:after {
-      margin: 24px auto;
-      text-shadow: 3px 0px 0 #fffbe6, -3px 0 0 #fffbe6;
-      border-bottom: 1px solid #1368c2;
-      color:#1368c2;
-    }
-    .employment-current:after {
-      margin: 48px auto 24px;
-      text-shadow: 3px 0px 0 #1368c2, -3px 0 0 #1368c2;
-      border-bottom: 1px solid #fffbe6;
-    }
-    /****************************
+      #intro {
+        background: var(--light);
+        color: var(--dark);
+        text-align: center;
+        padding-bottom: 72px;
+      }
+      #intro p {
+        margin: 0 0 12px;
+      }
+      #intro a {
+        color: var(--highlight);
+      }
+      h1 {
+        font-weight: 200;
+        font-size: 72px;
+        font-size: calc(10vw + 16px);
+        text-align: center;
+        margin: 0 0 0.3em;
+      }
+      h1:after,
+      .employment-current:after,
+      #social:after {
+        display: block;
+        content: "♦";
+        width: 80%;
+        max-width: 240px;
+        height: 0;
+        line-height: 1px;
+        background: transparent;
+        font-size: 18px;
+        text-align: center;
+        clear: both;
+      }
+      h1:after {
+        margin: 24px auto;
+        text-shadow: 3px 0px 0 var(--light), -3px 0 0 var(--light);
+        border-bottom: 1px solid var(--dark);
+        color: var(--dark);
+      }
+      #social:after {
+        margin: 24px auto;
+        text-shadow: 3px 0px 0 var(--light), -3px 0 0 var(--light);
+        border-bottom: 1px solid var(--highlight);
+        color: var(--highlight);
+      }
+      .employment-current:after {
+        margin: 48px auto 24px;
+        text-shadow: 3px 0px 0 var(--highlight), -3px 0 0 var(--highlight);
+        border-bottom: 1px solid var(--light);
+      }
+      /****************************
      * WORK INFO
      ****************************/
-    #work {
-      text-align:center;
-      padding-top:64px;
-    }
-    .employment {
-      margin:0 auto 24px;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      max-width:840px;
-    }
-    .employment a,
-    .employment a:visited {
-      color:#fdf0e4;
-      text-decoration:none;
-    }
-    .employment a:hover {
-      color:#fbf8e2;
-      border-bottom:1px solid #fbf8e2;
-    }
-    .employment-current img {
-      max-width:480px;
-      width:80%;
-      height:auto;
-      margin-bottom:24px;
-    }
-    .employment-past {
-      overflow:hidden;
-    }
-    .employment-past img {
-      max-width:240px;
-    }
-    .employment-content {
-      text-align:left;
-    }
-    .employment-content p:first-child {
-      font-weight:bold;
-      font-size:1.2em;
-      margin-top:12px;
-    }
-    /****************************
+      #work {
+        text-align: center;
+        padding-top: 64px;
+      }
+      .employment {
+        margin: 0 auto 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 840px;
+      }
+      .employment a,
+      .employment a:visited {
+        text-decoration: none;
+        display: inline-block;
+        padding-inline: 6px;
+        color: var(--light--secondary);
+        background-color: transparent;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      .employment a:hover {
+        color: var(--highlight);
+        background-color: var(--light--secondary);
+      }
+      .employment-current > img {
+        max-width: 480px;
+        width: 80%;
+        height: auto;
+        margin-bottom: 24px;
+      }
+      .employment-past {
+        overflow: hidden;
+      }
+      .employment-past > img {
+        max-width: 240px;
+      }
+      .employment-content {
+        text-align: left;
+      }
+      .employment-content p:first-child {
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top: 12px;
+      }
+      /****************************
      * SOCIAL MEDIA
      ****************************/
-    #social {
-      background:#fffbe6;
-      color:#343232;
-      text-align:center;
-    }
-    .site {
-      text-decoration:none;
-      color:#343232;
-      display:block;
-      margin-bottom:48px;
-    }
-    .site a,
-    .site a:visited {
-      color:#333131;
-    }
-    .site a:hover {
-      color:#323030;
-    }
-    .site img {
-      width:120px;
-      height:auto;
-    }
-    .site-content {
-      text-align:left;
-      max-width:640px;
-      margin:0 auto;
-    }
-    /****************************
+      #social {
+        background: var(--light);
+        color: var(--dark);
+        text-align: center;
+      }
+      .site {
+        text-decoration: none;
+        color: var(--dark);
+        display: block;
+        margin-bottom: 48px;
+      }
+      .site img {
+        width: 120px;
+        height: auto;
+      }
+      .site-content {
+        text-align: left;
+        max-width: 640px;
+        margin: 0 auto;
+      }
+      /****************************
      * FOOTER
      ****************************/
-    footer {
-      overflow:hidden;
-      padding:24px;
-    }
-    footer a {
-      color:#fffbe6;
-    }
-    .colophon a {
-      text-decoration:none;
-      border-bottom:1px solid #fffbe6;
-    }
-    /****************************
+      footer {
+        overflow: hidden;
+        padding: 24px;
+      }
+      footer a {
+        color: var(--light);
+      }
+      .colophon a {
+        text-decoration: none;
+        border-bottom: 1px solid var(--light);
+      }
+      /****************************
      * Big screens
      ****************************/
-    @media (min-width: 720px) {
-      .employment-past {
-        flex-direction:row;
+      @media (min-width: 720px) {
+        .employment-past {
+          flex-direction: row;
+        }
+        .employment-past .employment-content {
+          padding: 0 0 0 5%;
+        }
+        .employment-past img {
+          align-self: flex-start;
+        }
+        .copyright {
+          float: left;
+        }
+        .colophon {
+          float: right;
+        }
       }
-      .employment-past .employment-content {
-        padding:0 0 0 5%;
-      }
-      .employment-past img {
-        align-self:flex-start;
-      }
-      .copyright {
-        float:left;
-      }
-      .colophon {
-        float:right;
-      }
-    }
-  </style>
+    </style>
 
-  <!-- Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-4541863-13', 'auto');
-    ga('send', 'pageview');
-  </script>
+    <!-- Analytics -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-4541863-13", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
 
-  <!-- HTML5 shiv -->
-  <script>
-  !function(a,b){function c(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function d(){var a=t.elements;return"string"==typeof a?a.split(" "):a}function e(a,b){var c=t.elements;"string"!=typeof c&&(c=c.join(" ")),"string"!=typeof a&&(a=a.join(" ")),t.elements=c+" "+a,j(b)}function f(a){var b=s[a[q]];return b||(b={},r++,a[q]=r,s[r]=b),b}function g(a,c,d){if(c||(c=b),l)return c.createElement(a);d||(d=f(c));var e;return e=d.cache[a]?d.cache[a].cloneNode():p.test(a)?(d.cache[a]=d.createElem(a)).cloneNode():d.createElem(a),!e.canHaveChildren||o.test(a)||e.tagUrn?e:d.frag.appendChild(e)}function h(a,c){if(a||(a=b),l)return a.createDocumentFragment();c=c||f(a);for(var e=c.frag.cloneNode(),g=0,h=d(),i=h.length;i>g;g++)e.createElement(h[g]);return e}function i(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return t.shivMethods?g(c,a,b):b.createElem(c)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+d().join().replace(/[\w\-:]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(t,b.frag)}function j(a){a||(a=b);var d=f(a);return!t.shivCSS||k||d.hasCSS||(d.hasCSS=!!c(a,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),l||i(a,d),a}var k,l,m="3.7.3-pre",n=a.html5||{},o=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,p=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,q="_html5shiv",r=0,s={};!function(){try{var a=b.createElement("a");a.innerHTML="<xyz></xyz>",k="hidden"in a,l=1==a.childNodes.length||function(){b.createElement("a");var a=b.createDocumentFragment();return"undefined"==typeof a.cloneNode||"undefined"==typeof a.createDocumentFragment||"undefined"==typeof a.createElement}()}catch(c){k=!0,l=!0}}();var t={elements:n.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video",version:m,shivCSS:n.shivCSS!==!1,supportsUnknownElements:l,shivMethods:n.shivMethods!==!1,type:"default",shivDocument:j,createElement:g,createDocumentFragment:h,addElements:e};a.html5=t,j(b),"object"==typeof module&&module.exports&&(module.exports=t)}("undefined"!=typeof window?window:this,document);
-  </script>
+  <body>
+    <!-- Well done for finding this HTML comment. Are you viewing source? -->
 
-</head>
+    <section id="intro">
+      <h1>chrismar.sh</h1>
+      <p>
+        I am a <strong>Software Engineer</strong>, using
+        <abbr title="HyperText Markup Language">HTML</abbr>,
+        <abbr title="Cascading Style Sheets">CSS</abbr> and
+        <abbr title="JavaScript">JS</abbr> to make web sites and apps.
+      </p>
+      <p>
+        I'm comfortable using JS frameworks (Angular, React, Vue, Svelte) or
+        writing from scratch.
+      </p>
+      <p>
+        I'm a certified AWS developer, with experience in using a wide range of
+        AWS products.
+      </p>
+      <p><a href="cv.pdf" target="_blank">Download my CV</a></p>
+    </section>
 
-<body>
-
-  <!-- Well done for finding this HTML comment. Are you viewing source? -->
-
-  <section id="intro">
-    <h1>chrismar.sh</h1>
-    <p>I am a <strong>Software Engineer</strong>, using <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> and <abbr title="JavaScript">JS</abbr> to make web sites and apps.</p>
-    <p>I'm comfortable using JS frameworks (Angular, React, Vue, Svelte) or writing from scratch.</p>
-    <p>I'm a certified AWS developer, with experience in using a wide range of AWS products.</p>
-    <p><a href="cv.pdf" target="_blank">Download my CV</a></p>
-  </section>
-
-  <section id="work">
-    <div class="employment employment-current">
-      <img src="bjss.webp" alt="BJSS logo" width="480" height="254">
-      <div class="employment-content">
-        <p>Looking for a new challenge to expand my horizons, in April 2023 I moved to <a href="https://www.bjss.com/">BJSS</a>, a tech consultancy.</p>
-        <p></p>It's a fantastic place to work, and I'm getting stuck in to my first project, a discovery project for a large piece of enterprise software that BJSS has developed for a client. Watch this space!</p>
+    <section id="work">
+      <div class="employment employment-current">
+        <img
+          src="img/hhl.webp"
+          alt="hedgehog lab logo"
+          width="480"
+          height="167"
+        />
+        <div class="employment-content">
+          <p>
+            In February 2024 I was given the opportunity to work at
+            <a href="https://www.hedgehoglab.com/">hedgehog lab</a>, a
+            human-centred tech consultancy with the cutest logo
+            <img src="img/hhl_character.webp" width="38" height="32" />.
+          </p>
+          <p>
+            I'm getting the chance to upskill in so many areas - working in Vue,
+            React and more, and I'm also getting to work with some of the best
+            people in the industry. I'm really looking forward to this next
+            phase in my career!
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="employment employment-past">
-      <img src="cgw.webp" alt="Cloud Gateway logo" width="240" height="78">
-      <div class="employment-content">
-        <p>After four years at the University of York I decided it was time for a new challenge. Enter <a href="https://www.cloudgateway.co.uk/">Cloud Gateway</a>.</p>
-        <p>I joined the company when it was 18 months old, a small startup with a bright future. By the time I left it was nearing 50 employees, and the development team had grown to four people.</p>
-        <p>I redeveloped the customer portal, where customers can log on to see details of their accounts. This meant diving into Angular and AWS services, which was a new tech stack for me, and I learned so much.</p>
+      <div class="employment employment-past">
+        <img src="img/bjss.webp" alt="BJSS logo" width="240" height="127" />
+        <div class="employment-content">
+          <p>
+            Looking for a new challenge to expand my horizons, in April 2023 I
+            moved to <a href="https://www.bjss.com/">BJSS</a>, a tech
+            consultancy.
+          </p>
+          <p>
+            It was a fantastic place to work, with some super-talented folk
+            working there. However, by early 2024 I was given an opportunity to
+            take on a role with more seniority and the chance to have a direct
+            impact in more projects, so it was time for me to move on.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="employment employment-past">
-      <img src="york.webp" alt="University of York logo" width="240" height="93">
-      <div class="employment-content">
-        <p>I worked at the <a href="http://www.york.ac.uk">University of York</a> from January 2015 to May 2019.</p>
-        <p>The higher education sector hasn't always been the most up-to-date when it comes to their websites, but in my years at York I was proud to be part of, and then lead, a quick-moving digital marketing team.</p>
-        <p>We built and developed a responsive framework to deliver a new and improved digital experience for students, alumni and staff.</p>
+      <div class="employment employment-past">
+        <img
+          src="img/cgw.webp"
+          alt="Cloud Gateway logo"
+          width="240"
+          height="78"
+        />
+        <div class="employment-content">
+          <p>
+            After four years at the University of York I decided it was time for
+            a new challenge. Enter
+            <a href="https://www.cloudgateway.co.uk/">Cloud Gateway</a>.
+          </p>
+          <p>
+            I joined the company when it was 18 months old, a small startup with
+            a bright future. By the time I left it was nearing 50 employees, and
+            the development team had grown to four people.
+          </p>
+          <p>
+            I redeveloped the customer portal, where customers can log on to see
+            details of their accounts. This meant diving into Angular and AWS
+            services, which was a new tech stack for me, and I learned so much.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="employment employment-past">
-      <img src="epiphany.webp" alt="Epiphany Search logo" width="240" height="100">
-      <div class="employment-content">
-        <p>Four years, working for some top brands, with some top people.</p>
-        <p>Working at <a href="http://www.epiphanysearch.co.uk">Epiphany</a> allowed me to flourish, rising from being the single developer in a team of two to be a senior developer in a team of over 20.</p>
-        <p>I started there in August 2010 along with <a href="http://iamgaz.co.uk/">Gaz Battersby</a>, as a new team dedicated to creating cool interactive pieces. It seemed to work pretty well, and the team grew.</p>
-        <p>A great place to work, with a brilliant culture and outstanding people. But new challenges awaited at York!</p>
+      <div class="employment employment-past">
+        <img
+          src="img/york.webp"
+          alt="University of York logo"
+          width="240"
+          height="93"
+        />
+        <div class="employment-content">
+          <p>
+            I worked at the
+            <a href="http://www.york.ac.uk">University of York</a> from January
+            2015 to May 2019.
+          </p>
+          <p>
+            The higher education sector hasn't always been the most up-to-date
+            when it comes to their websites, but in my years at York I was proud
+            to be part of, and then lead, a quick-moving digital marketing team.
+          </p>
+          <p>
+            We built and developed a responsive framework to deliver a new and
+            improved digital experience for students, alumni and staff.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="employment employment-past">
-      <img src="sense.webp" alt="Sense logo" width="240" height="125">
-      <div class="employment-content">
-        <p>One of Leeds' first digital agencies, which set my career rising.</p>
-        <p>Although I was there for less than a year, working at Sense put me in touch with the Leeds agency scene, and allowed me to make contacts that have lasted to this day.</p>
-        <p>It was bitterly sad when it closed its doors, but Epiphany was there to catch a couple of ex-Sense employees to lead their new R &amp; D team.</p>
+      <div class="employment employment-past">
+        <img
+          src="img/epiphany.webp"
+          alt="Epiphany Search logo"
+          width="240"
+          height="100"
+        />
+        <div class="employment-content">
+          <p>Four years, working for some top brands, with some top people.</p>
+          <p>
+            Working at
+            <a href="http://www.epiphanysearch.co.uk">Epiphany</a> allowed me to
+            flourish, rising from being the single developer in a team of two to
+            be a senior developer in a team of over 20.
+          </p>
+          <p>
+            I started there in August 2010 along with
+            <a href="http://iamgaz.co.uk/">Gaz Battersby</a>, as a new team
+            dedicated to creating cool interactive pieces. It seemed to work
+            pretty well, and the team grew.
+          </p>
+          <p>
+            A great place to work, with a brilliant culture and outstanding
+            people. But new challenges awaited at York!
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="employment employment-past">
-      <img src="seventeenten.webp" alt="Seventeen Ten logo" width="240" height="69">
-      <div class="employment-content">
-        <p>Running my own business made me realise where my strengths lay.</p>
-        <p>I'm no salesman, and running my own business proved that to me. I'm proud of the work I did there, and learned a lot of valuable lessons, but I was never going to be able to bring in the business I needed to stay afloat.</p>
-        <p>It was during this time that my career path started veering towards front-end development. Until then, web developers tended to do a little bit of front-end, a bit of back-end, some copywriting and even sysadmin when it was needed. But the digital world was growing and I needed to specialise.</p>
+      <div class="employment employment-past">
+        <img src="img/sense.webp" alt="Sense logo" width="240" height="125" />
+        <div class="employment-content">
+          <p>
+            One of Leeds' first digital agencies, which set my career rising.
+          </p>
+          <p>
+            Although I was there for less than a year, working at Sense put me
+            in touch with the Leeds agency scene, and allowed me to make
+            contacts that have lasted to this day.
+          </p>
+          <p>
+            It was bitterly sad when it closed its doors, but Epiphany was there
+            to catch a couple of ex-Sense employees to lead their new R &amp; D
+            team.
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+      <div class="employment employment-past">
+        <img
+          src="img/seventeenten.webp"
+          alt="Seventeen Ten logo"
+          width="240"
+          height="69"
+        />
+        <div class="employment-content">
+          <p>Running my own business made me realise where my strengths lay.</p>
+          <p>
+            I'm no salesman, and running my own business proved that to me. I'm
+            proud of the work I did there, and learned a lot of valuable
+            lessons, but I was never going to be able to bring in the business I
+            needed to stay afloat.
+          </p>
+          <p>
+            It was during this time that my career path started veering towards
+            front-end development. Until then, web developers tended to do a
+            little bit of front-end, a bit of back-end, some copywriting and
+            even sysadmin when it was needed. But the digital world was growing
+            and I needed to specialise.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section id="social">
-    <p>I can be found in a few places online. Here is a small selection.</p>
-    <a href="https://facebook.com/chris5marsh" class="site">
-      <img src="facebook.webp" alt="Facebook logo" width="240" height="240">
-      <div class="site-content">
-        <p>I tend to use <strong>Facebook</strong> for personal stuff. So it'll mostly be me checking in to family-friendly restaurants, telling you how far I've just run, or posting pictures of my kids.</p>
-      </div>
-    </a>
-    <a href="https://mastodon.social/@chris5marsh" class="site">
-      <img src="mastodon.webp" alt="Mastodon logo" width="240" height="240">
-      <div class="site-content">
-        <p><strong>Mastodon</strong> is more work-related. Since Twitter imploded in 2023 I've not used it at all, and Mastodon seems to be the place where a lot of the tech scene have relocated.</p>
-      </div>
-    </a>
-    <a href="https://github.com/chris5marsh" class="site">
-      <img src="github.webp" alt="Github logo" width="240" height="234">
-      <div class="site-content">
-        <p>I've got a few mini-projects on <strong>Bitbucket</strong> as well as <strong>Github</strong>, including this web page here! I can't decide which one is better.</p>
-      </div>
-    </a>
-  </section>
+    <section id="social">
+      <p>I can be found in a few places online. Here is a small selection.</p>
+      <a href="https://facebook.com/chris5marsh" class="site">
+        <img
+          src="img/facebook.webp"
+          alt="Facebook logo"
+          width="240"
+          height="240"
+        />
+        <div class="site-content">
+          <p>
+            I tend to use <strong>Facebook</strong> for personal stuff. So it'll
+            mostly be me checking in to family-friendly restaurants, telling you
+            how far I've just run, or posting pictures of my kids.
+          </p>
+        </div>
+      </a>
+      <a href="https://mastodon.social/@chris5marsh" class="site">
+        <img
+          src="img/mastodon.webp"
+          alt="Mastodon logo"
+          width="240"
+          height="240"
+        />
+        <div class="site-content">
+          <p>
+            <strong>Mastodon</strong> is more work-related. Since Twitter
+            imploded in 2023 I've not used it at all, and Mastodon seems to be
+            the place where a lot of the tech scene have relocated.
+          </p>
+        </div>
+      </a>
+      <a href="https://github.com/chris5marsh" class="site">
+        <img src="img/github.webp" alt="Github logo" width="240" height="234" />
+        <div class="site-content">
+          <p>
+            I've got a few mini-projects on <strong>Bitbucket</strong> as well
+            as <strong>Github</strong>, including this web page here! I can't
+            decide which one is better.
+          </p>
+        </div>
+      </a>
+    </section>
 
-  <footer>
-    <p class="copyright">Made from scratch by me.</p>
-    <p class="colophon">Feedback? Questions? Comments? Find me on <a rel="me" href="https://mastodon.social/@chris5marsh">Mastodon</a>.</p>
-  </footer>
-
-</body>
+    <footer>
+      <p class="copyright">Made from scratch by me.</p>
+      <p class="colophon">
+        Feedback? Questions? Comments? Find me on
+        <a rel="me" href="https://mastodon.social/@chris5marsh">Mastodon</a>.
+      </p>
+    </footer>
+  </body>
 </html>
